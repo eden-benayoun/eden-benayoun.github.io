@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-Hi, and welcom. This is my CV, I wrote it in HTML as a little fun project.
+Hi, and welcome. This is my CV, I wrote it in HTML as a little fun project.
 
 # Preview
 
@@ -8,7 +8,7 @@ For a quick preview, click [here](https://htmlpreview.github.io/?https://github.
 
 # Download
 
-you can also download the file [here](https://github.com/eden-benayoun/my-cv/archive/refs/heads/main.zip) and open the html file with your prefered web browser.
+You can also download the file [here](https://github.com/eden-benayoun/my-cv/archive/refs/heads/main.zip) and open the HTML file with your prefered web browser.
 
 # Else
 
