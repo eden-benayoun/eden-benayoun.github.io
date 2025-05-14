@@ -47,13 +47,13 @@ div {
 }
 
 .main_content th:nth-child(2), td:nth-child(2){
-  width: 16%;
+  width: 100px;
 }
 
 .main_content h2 {
   color: #2079C7;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
   padding: 0px;
 }
 
