@@ -12,7 +12,7 @@ header h1 {
   font-size: 36px;
   padding: 20px;
   color: black;
-  border: 10px;
+  border-width: 10px;
 }
 
 div {
