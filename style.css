@@ -5,31 +5,45 @@
 body {
   font-family: arial;
   color: #666666;
+  background-color: white;
 }
 	
-header h1 {
+h1 {
   font-weight: 50;
   font-size: 36px;
   padding: 20px;
-  color: black;
   border-width: 10px;
+  color: black;
 }
 
 div {
   padding-bottom: 15px;
 }
 
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+button {
+	border: none;
+	float: right;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+}
+
 .main_content {
   font-size: 100%;
 }
 
-.main_content table{
+.main_content table {
   padding: 0px;
   width: 100%;
   border-spacing: 0px;
 }
 
-.main_content td{
+.main_content td {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-right: 0px;
@@ -37,7 +51,7 @@ div {
   text-align: left;
 }
 
-.main_content th{
+.main_content th {
   color: black;
   padding-top: 10px;
   padding-bottom: 0px;
@@ -61,7 +75,7 @@ div {
   padding-left: 15px;
 }
 
-.small_subtext{
+.small_subtext {
   padding: 0px;
   font-size: 14px;
 }
@@ -73,11 +87,6 @@ div {
 .side_bar ul {
   list-style-type: none;
   padding: 0px;
-}
-	
-.side_bar a {
-  color: #666666;
-  text-decoration: none;
 }
 	
 .side_bar h2 {
@@ -114,4 +123,26 @@ of next to each other, on small screens*/
     width: 100%;
     height: auto;
   }
+}
+
+.dark_mode {
+  background-color: black;
+  color: #bbbbbb;
+}
+
+.dark_mode h1 {
+  color: white;
+}
+
+.dark_mode a {
+  color: #bbbbbb;
+}
+
+.dark_mode .main_content th {
+  color: white;
+}
+
+.dark_mode button {
+	color: white;
+	background-color: black;
 }

@@ -14,6 +14,7 @@
 </head>
 <body>
 	<header>
+	  <button onclick="darkModeLightMode()">&#9788;</button>
 	  <h1>Eden Benayoun</h1>
 	</header>
 	<main id="cv">
@@ -122,5 +123,11 @@
 			</div>
 		</section>
 	</main>
+	<script>
+	  function darkModeLightMode() {
+        var body = document.body;
+        body.classList.toggle("dark_mode");
+	  }
+	</script>
 </body>
 </html>
