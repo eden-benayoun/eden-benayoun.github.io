@@ -11,13 +11,14 @@ body {
 h1 {
   font-weight: 50;
   font-size: 36px;
-  padding: 20px;
-  border-width: 10px;
+  padding-left: 20px;
   color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 div {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 a {
@@ -33,26 +34,18 @@ button {
 	background-color: white;
 }
 
-.main_content {
-  font-size: 100%;
-}
-
-.main_content table {
-  padding: 0px;
+table {
   width: 100%;
   border-spacing: 0px;
 }
 
-.main_content td {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  text-align: left;
+td:nth-child(2){
+  width: 100px;
 }
 
-.main_content th {
+.imp_text {
   color: black;
+  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 0px;
   padding-right: 0px;
@@ -60,8 +53,14 @@ button {
   text-align: left;
 }
 
-.main_content th:nth-child(2), td:nth-child(2){
-  width: 100px;
+.small_subtext {
+  padding: 0px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.main_content {
+  font-size: 100%;
 }
 
 .main_content h2 {
@@ -69,15 +68,23 @@ button {
   font-weight: bold;
   font-size: 19px;
   padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.main_content p {
+  margin-top: 16px;
+  margin-bottom: 0px;
 }
 
 .main_content ul {
   padding-left: 15px;
+  margin: 1px;
 }
 
-.small_subtext {
-  padding: 0px;
-  font-size: 14px;
+.main_content dl {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .side_bar {
@@ -138,7 +145,7 @@ of next to each other, on small screens*/
   color: #bbbbbb;
 }
 
-.dark_mode .main_content th {
+.dark_mode .imp_text {
   color: white;
 }
 
