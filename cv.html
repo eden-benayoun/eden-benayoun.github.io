@@ -14,10 +14,11 @@
 </head>
 <body>
 	<header>
+	  <button onclick="darkModeLightMode()">&#9788;</button>
 	  <h1>Eden Benayoun</h1>
 	</header>
 	<main id="cv">
-		<section id="cv_info" aria-label="The main comtent of my cv">
+		<section id="cv_info" aria-label="The main content of my cv">
 			<div class="main_content" id="about_me">
 				<h2>About Me</h2>
 				<p>I am highly motivated to learn and grow while expanding my knowledge, therefore I am 
@@ -27,11 +28,11 @@
 			<div class="main_content" id="projects">
 				<h2>Projects</h2>
 				<dl>
-					<dt>Practical Engineering final project</dt>
+					<dt>Practical Engineering final project:</dt>
 					<dd>A hardware system for drone video processing using FPGA technology, AI and Arduino.</dd>
-					<dt>Scholarship with ‘Cracking the Glass Ceiling’</dt>
+					<dt>Scholarship with ‘Cracking the Glass Ceiling’:</dt>
 					<dd> An empowerment program for girls, focusing on STEM education, that advances educational excellence in the periphery.</dd>
-					<dt>This page</dt>
+					<dt>This page:</dt>
 					<dd>A single-page CV writen in HTML and CSS.</dd>
 				</dl>
 			</div>
@@ -39,25 +40,25 @@
 				<h2>Education</h2>
 				<table>
 					<tr>
-						<th>Bachelor’s degree student in computer science</th>
-						<th>2023 - today</th>
-					</tr>
-					<tr class="small_subtext">
-						<td>The Open University of Israel</td>
+						<td  class="imp_text">Bachelor’s degree student in computer science</td>
+						<td  class="imp_text">2023 - today</td>
 					</tr>
 					<tr>
-						<th>CCNA course – network management and security</th>
-						<th>2019</th>
-					</tr>
-					<tr class="small_subtext">
-						<td>Net4U college</td>
+						<td class="small_subtext">The Open University of Israel</td>
 					</tr>
 					<tr>
-						<th>Practical electronics and computer engineer</th>
-						<th>2018 - 2020</th>
+						<td class="imp_text">CCNA course – network management and security</td>
+						<td class="imp_text">2019</td>
 					</tr>
-					<tr class="small_subtext">
-						<td>ORT Hermelin college</td>
+					<tr>
+						<td class="small_subtext">Net4U college</td>
+					</tr>
+					<tr>
+						<td class="imp_text">Practical electronics and computer engineer</td>
+						<td class="imp_text">2018 - 2020</td>
+					</tr>
+					<tr>
+						<td class="small_subtext">ORT Hermelin college</td>
 					</tr>
 				</table>
 			</div>
@@ -65,11 +66,11 @@
 				<h2>Military Service</h2>
 				<table>
 					<tr>
-						<th>Technology and Maintenance officer</th>
-						<th>2020 - 2023</th>
+						<td class="imp_text">Technology and Maintenance officer</td>
+						<td class="imp_text">2020 - 2023</td>
 					</tr>
-					<tr class="small_subtext">
-						<td>
+					<tr>
+						<td class="small_subtext">
 							Technology and Maintenance corps (Israel)
 							<ul>
 								<li>Security officer and defense platoon commander, camp Shura.</li>
@@ -81,8 +82,8 @@
 						</td>
 					</tr>
 					<tr>
-						<th>Technology and Maintenance officer (reserve)</th>
-						<th>2023 - 2025</th>
+						<td class="imp_text">Technology and Maintenance officer (reserve)</td>
+						<td class="imp_text">2023 - 2025</td>
 					</tr>
 					<tr>
 						<td class="small_subtext">The 920th Infantry Battalion</td>
@@ -106,6 +107,7 @@
 					<li>Python</li>
 					<li>Java</li>
 					<li>HTML</li>
+					<li>CSS</li>
 					<li>VHDL</li>
 					<li>C</li>
 					<li>C#</li>
@@ -122,5 +124,11 @@
 			</div>
 		</section>
 	</main>
+	<script>
+	  function darkModeLightMode() {
+        var body = document.body;
+        body.classList.toggle("dark_mode");
+	  }
+	</script>
 </body>
 </html>
